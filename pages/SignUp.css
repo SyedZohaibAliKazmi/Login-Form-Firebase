@@ -12,16 +12,13 @@ body{
     background-position: center;
 }
 .starry-world{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
     width: 420px;
     background-color: rgba(255, 255, 255, 0.151);
     
     border: 2px solid #707070;
     backdrop-filter: blur(20px);
     box-shadow: 0,0,0,.1;
-    /* color: #191F31; */
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -33,11 +30,9 @@ body{
 
 .starry-world input{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    
     width: 95%;
     height: 30px;
-    /* background: rgb(139, 117, 89); */
     margin: 15px 0px;
 }
  input{
@@ -91,4 +86,56 @@ p {
 }
 p a:hover{
     text-decoration: underline;
+}
+
+
+
+                                    /* RESPONSIVE FOR MOBILE  */
+/* ==============\========\========================\=========================\ */
+
+@media screen and (max-width: 480px) {
+
+    .starry-world{
+
+        width: 320px;
+        background-color: rgba(255, 255, 255, 0.151);  
+        border: 2px solid #707070;
+        backdrop-filter: blur(20px);
+        box-shadow: 0,0,0,.1;
+        border-radius: 10px;
+        padding: 30px 40px;
+    }
+
+    .starry-world h1{
+        font-family: 'Merriweather', serif;
+        font-size: 32px;
+        text-align: center;
+    }
+    input{
+    
+        width: 40%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid #191F31;
+        border-radius: 40px;
+        font-size: 16px;
+        color: #191F31;
+        padding: 5px 5px 5px 27px;
+    
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .starry-world{
+        width: 240px;
+        background-color: rgba(255, 255, 255, 0.151);  
+        border: 2px solid #707070;
+        backdrop-filter: blur(20px);
+        box-shadow: 0,0,0,.1;
+        border-radius: 10px;
+        padding: 30px 40px;
+    }
 }

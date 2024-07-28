@@ -12,23 +12,18 @@ body{
     background-position: center;
 }
 .starry-world{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
     width: auto;
     background-color: rgba(255, 255, 255, 0.151);
     
     border: 2px solid #707070;
     backdrop-filter: blur(20px);
     box-shadow: 0,0,0,.1;
-    /* color: #191F31; */
     border-radius: 10px;
     padding: 30px 40px;
 }
 p {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
     font-size: 30px;
     font-weight: 500;
     text-align: center;

@@ -12,16 +12,11 @@ body{
     background-position: center;
 }
 .starry-world{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     width: 420px;
     background-color: rgba(255, 255, 255, 0.151);
-    
     border: 2px solid #707070;
     backdrop-filter: blur(20px);
     box-shadow: 0,0,0,.1;
-    /* color: #191F31; */
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -91,4 +86,58 @@ p {
 }
 p a:hover{
     text-decoration: underline;
+}
+
+                                        /* Responsive for tablet */
+/* ===================================\====================================\=================\ */
+
+
+@media screen and (max-width: 500px) {
+
+
+    .starry-world{
+        width:360px;
+        background-color: rgba(255, 255, 255, 0.151);
+        border: 2px solid #707070;
+        backdrop-filter: blur(20px);
+        box-shadow: 0,0,0,.1;
+        border-radius: 10px;
+        padding: 30px 40px;
+    }
+
+
+}
+
+                            /* for mobile  */
+
+/* ======\============\==============\============\============\ */
+
+@media screen and (max-width: 470PX) {
+    
+    .starry-world{
+        width:320PX;
+        background-color: rgba(255, 255, 255, 0.151);
+        border: 2px solid #707070;
+        backdrop-filter: blur(20px);
+        box-shadow: 0,0,0,.1;
+        border-radius: 10px;
+        padding: 30px 40px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400PX) {
+
+    .starry-world{
+        width:280PX;
+        background-color: rgba(255, 255, 255, 0.151);
+        border: 2px solid #707070;
+        backdrop-filter: blur(20px);
+        box-shadow: 0,0,0,.1;
+        border-radius: 10px;
+        padding: 30px 40px;
+    }
+
 }
